@@ -192,7 +192,8 @@ h3 {
 	position: absolute;
 }
 
-#grad2 img {
+#grad2 {
+	background: url("../images/grad2.jpg");
 	width: 35%;
 	height: auto;
 	left: 25%;
