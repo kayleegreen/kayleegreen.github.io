@@ -1,50 +1,44 @@
 $(document).ready(function () {
 
-$('#landing').scroll(function() {
+  $('#landing').scroll(function() {
     var x = $(this).scrollTop();
     $(this).css('background-position', '0% ' + parseInt(-x / 10) + 'px');
-});
+  });
 
 
-$('#landing2').scroll(function() {
+  $('#landing2').scroll(function() {
     var x = $(this).scrollTop();
     $(this).css('background-position', '0% ' + parseInt(-x / 10) + 'px');
-});
+  });
 
 
-window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
+  function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("to-top").style.display = "block";
+      document.getElementById("to-top").style.display = "block";
     } else {
-        document.getElementById("to-top").style.display = "none";
+      document.getElementById("to-top").style.display = "none";
     }
-}
+  }
 
-function topFunction() {
+  function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-}
-});
+  }
+  document.getElementById("page-link").onclick = linkButtonClicked;
 
-/**
- *
- *
- * @param {string} color
- */
-
-document.getElementById("page-link").onclick = linkButtonClicked;
-
-function setColor(color) {
+  function setColor(color) {
     document.getElementById("page-link").style.Color = color;
-}
+  }
 
-function linkButtonClicked() {
+  function linkButtonClicked() {
     document.getElementsById("page-link").onclick = setColor('#94728e');
-}
+  }
 
-function linkButtonClicked() {
-setColor('#94728e');
+  function linkButtonClicked() {
+    setColor('#94728e');
 
-}
+  }
+
+});
