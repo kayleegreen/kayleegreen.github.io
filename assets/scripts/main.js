@@ -47,4 +47,4 @@ function linkButtonClicked() {
 function linkButtonClicked() {
 setColor('#94728e');
 
-});
+}
