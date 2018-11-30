@@ -26,6 +26,11 @@ $(document).ready(function () {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+  document.getElementById("to-top").onclick = topFunction;
+
+
+
   document.getElementById("page-link").onclick = linkButtonClicked;
 
   function setColor(color) {
