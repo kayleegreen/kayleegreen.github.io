@@ -272,8 +272,8 @@ h3 {
 }
 
 #to-top {
-	height: auto;
-	width: 20px;
+	height: 10px;
+	width: auto;
 	background-color: transparent;
 	position: fixed;
 	bottom: 0;
