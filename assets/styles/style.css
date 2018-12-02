@@ -37,9 +37,10 @@ a {
 	left: 5%;
 	width: 280px;
 	height: 112px;
+	z-index: 1005;
 }
 
-#logo-top:hover {
+#logo-top img:hover {
 	cursor: pointer;
 }
 
