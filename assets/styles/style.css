@@ -453,15 +453,20 @@ h6 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	top: 25%;
 }
 
 #title {
 	font-size: 20px;
+	color: grey;
 	text-transform: uppercase;
 	letter-spacing: 10px;
-	left: 50px;
-	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #c2a8d0;
 	padding: 1em;
+	margin-top: 220px;
+	margin-bottom: 80px;
 }
 
 #column {
@@ -475,13 +480,21 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: left;
+	align-items: center;
 	margin-right: 50px;
 	margin-left: 50px;
 	margin-bottom: 150px;
+	background: stretch;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.box img {
+		background-size: cover;
+		overflow: hidden;
+		min-width: 100%;
 }
 
 .box img:hover {
 	cursor: pointer;
-	overflow: hidden;
 }
