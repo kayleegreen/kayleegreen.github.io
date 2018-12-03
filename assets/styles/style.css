@@ -458,15 +458,24 @@ h6 {
 
 #title {
 	font-size: 20px;
-	color: grey;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 10px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #c2a8d0;
-	padding: 1em;
+	padding: .5em 19.5em .5em 19.5em;
 	margin-top: 220px;
 	margin-bottom: 80px;
+	background-image: url("../images/landing2.jpg");
+	background-position: center;
+	background-size: cover;
+	/* border-style: solid;
+	border-width: 5px;
+	border-color: black; */
+}
+
+.title2 {
+	padding: .5em 0em .5em .5em;
+	background-color: white;
+	opacity: .8;
 }
 
 #column {
@@ -483,7 +492,7 @@ h6 {
 	align-items: center;
 	margin-right: 50px;
 	margin-left: 50px;
-	margin-bottom: 150px;
+	margin-bottom: 80px;
 	background: stretch;
 	font-size: 16px;
 	overflow: hidden;
@@ -493,6 +502,7 @@ h6 {
 		background-size: cover;
 		overflow: hidden;
 		min-width: 100%;
+		box-shadow: 10px 4px 6px 2px rgba(0,0,0,0.1);
 }
 
 .box img:hover {
