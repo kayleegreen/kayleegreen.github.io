@@ -288,6 +288,10 @@ h3 {
 	z-index: 10000;
 }
 
+#to-top img:hover {
+	cursor: pointer;
+}
+
 #photo-link {
 	display: inline-block;
 	display: flex;
