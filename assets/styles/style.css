@@ -130,7 +130,7 @@ hr {
 #landing {
 	background: url("../images/landing2.jpg") no-repeat fixed 0 0;
 	width: 100vw;
-	height: 52vw;
+	height: 53vw;
 	background-position: top;
 	background-size: cover;
 	overflow: hidden;
@@ -444,5 +444,44 @@ h6 {
 	top: 80%;
 	font-size: 16px;
 	margin-bottom: 15%;
+}
 
+/* LANDSCAPES PAGE */
+
+#landscapes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#title {
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	left: 50px;
+	border-color: black;
+	padding: 1em;
+}
+
+#column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 150px;
+}
+
+.box img:hover {
+	cursor: pointer;
+	overflow: hidden;
 }
