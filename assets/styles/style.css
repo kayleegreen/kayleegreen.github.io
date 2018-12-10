@@ -70,8 +70,9 @@ a {
 	cursor: pointer;
 }
 
-.link {
-	margin-left: 8%;
+#link {
+	margin-right: 10%;
+	margin-left: 2%;
 }
 
 #page-link {
