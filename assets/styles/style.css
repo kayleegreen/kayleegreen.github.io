@@ -173,6 +173,7 @@ hr {
 	left: 53%;
 	top: 30%;
 	font-size: 14px;
+	overflow: scroll;
 }
 
 h3 {
@@ -234,7 +235,7 @@ h3 {
   padding: 1em;
   border: 1px solid #c2a8d0;
   display: flex;
-  width: 23%;
+  width: 18em;
 	height: 8px;
   margin: -1px 0 0 -1px;
   color: #c2a8d0;
@@ -252,7 +253,7 @@ h3 {
 
 .button h4 {
   font-weight: 200;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 
@@ -382,7 +383,7 @@ h6 {
 
 #writingbox {
 	top: 2%;
-	height: 50%;
+	height: 40em;
 }
 
 .button {
